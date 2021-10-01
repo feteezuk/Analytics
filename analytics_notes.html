@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Google Analytics Notes</title>
+  </head>
+  <body>
+
+    GOOGLE ANALYTICS TRAINING
+
+Things I have done in Analytics
+1. Exclude my own IP address
+2. WEBSITE IDEA - sf living wage
+* metric selector - you can change metric of graph below by selecting
+    * number of sessions per user
+    * ave. session duration
+ADD TO WEBSITE:
+HOW TO To identify effective traffic sources, 
+1. -, traffic should be “high quality,” meaning that users who arrive from a source engage with the website or complete a conversion. A good indicator of traffic quality can be bounce rate.
+2. -Our top traffic source is Google organic search, which has a relatively low bounce rate compared to other sources.
+3.  Our second most popular traffic source is direct traffic. YouTube referrals were the third highest traffic source, but had one of the highest bounce rates. Let’s do a bit more analysis to understand if this is a problem.
+We can click into the comparison view and select the metric “bounce rate” to compare bounce rate for each source/medium combination to the site average. Sure enough, we can see that our YouTube traffic is bouncing at a much higher rate than the site average. The Google Store may want to investigate to make sure that YouTube traffic is landing on a page that’s valuable to those users.
+ADD TO WEBSITE:
+Referrals Report
+If you want to view your traffic organized by which sites have linked to yours, you can look at the “Referrals” report.
+You can even click into individual referrals to see which specific web pages link back to your site. If you want to understand which specific pages of your site are being linked to, you can add a secondary dimension of “landing page” to the report. This will show you which external sites are sending traffic to each of your specific pages, and potentially offer you a source of new advertising partnerships with those referring websites.
+
+
+
+
+
+
+
+Digital Analytics -
+People Purchase goods in stages
+Acquisition - acquiring user interest
+Behavior - users engage with business
+conversion - when a user becomes a custoemer and transacts with your business
+
+How Google Analytics works
+Tracking code-
+* collects data on users behavior
+* browser info
+    * browser - language browser is set to - english, french etc.
+    * type of browser - chrome or safari
+    * operating system - windows, mac, etc.
+    * traffic source - search engine, email campaign,
+    * MOBILE OR DESKTOP
+SESSION
+- BEGINS WHEN A USER NAVIGATES TO WEBSITE WITH TRACKING CODE. ENDS WHEN THERE IS 30 MIN OF INACTIVITY.
+-
+
+CONFIGURATION SETTINGS - Adjust how your data collected is processed.
+    1. EX. add filter to exclude company traffic
+    2.
+HOW IS GOOGLE ANALYTICS ORGANIZED?
+1. ORGANIZATION - SF LIVING WAGE ORGANIZATION
+    1. ACCOUNT - 1 ACCOUNT FOR THE ORG., BUT POSSIBLE TO HAVE MANY ACCOUNTS. DETERMINES HOW DATA IS COLLECTED FROM YOUR WEBSITE AND WHO CAN ACCESS THAT DATA. NORMALLY, YOU CREATE DIFFERENT ACCOUNTS FOR DIFFERENT BUSINESSES.
+        1. PROPERTIES - CAN HAVE MANY PROPERTIES UNDER 1 ACCOUNT. A UNIQUE TRACKING ID IS CREATED. CAN ADD MULTIPLE WEBSITES( AS DIFF. PROPERTIES )TO 1 ACCOUNT. PROPERTY 1, PROPERTY 2, PROPERTY 3,
+            1. VIEWS - A PROPERTY CAN HAVE MULTIPLE VIEWS TO FILTER OUT A SPECIFIC THING YOU WANT TO SEE
+                1. CAN SET UP MULTIPLE VIEWS UNDER EACH PROPERTY WHICH WILL ALLOW US TO SEE DIFFERENT REGIONS SUCH AS NORTH AMERICA, FRANCE, EGYPT, ETC
+                2. SET UP VIEWS BASED ON IP ADDRESS
+                3. SET UP GOALS TO TRACK CONVERSIONS, BUSINESS OBJECTIVES, HOW MANY USERS BOUGHT SOMETHING,
+NOTE ABOUT VIEWS:
+1. WILL NOT TRACK PAST DATA
+2. ONLY TRACKS CURRENT AND FUTURE DATA
+
+GIVING OTHERS ACCESS
+1. YOU CAN ASSIGN ACCESS TO ORGANIZATION, ACCOUNTS, PROPERTIES VIEWS
+2. EACH LEVEL INHERITED PROPERTIES
+
+HOW TO EDIT ACCESS AND MANAGE USERS
+ (GOOGLE ANALYTICS)
+1. ANALYTICS.GOOGLE.COM
+2. ADMIN
+3. USER MANAGEMENT
+4. CHANGE VIEW PERMISSIONS
+    1. MANAGE USERS - ADD OR REMOVE USER ACCESS
+    2. EDIT - CHANGE CONFIG SETTINGS
+    3. COLLABORATE - SHARE PARTS OF DATA OR SETTING
+    4. READ AND ANALYZE -
+        1. VIEW DATA, ANALYZE REPORTS, AND CREATE DASHBOARDS.
+        2. THEY CAN NOT ADD NEW USERS OR CHANGE SETTINGS
+        3.
+How to set up views with filters
+
+In Google Analytics, you can set up different "views" of the data that you've collected. You can use filters within each view to determine what data will be available in that view. Having different views can help you focus on subsets of data or give other users access to specific views.
+
+CREATE 3 NEW VIEWS
+
+            1. Master View - back up data
+            2. raw view - test new data analytics
+            3. test view - daily reporting
+                1. Add filter settings to make sure we are not tracking our own IP
+                2. click predefined filter type
+
+TYPES OF FILTERS
+1. Predefined - template for common filters
+2. Custom - design filter to include or modify data
+
+
+
+Read further
+To learn more about setting up filters, please visit these links:
+* 		How to verify your filter 
+* 		About regular expressions 
+* 		LunaMetrics Basic Google Analytics Filters 
+* 		LunaMetrics Regular Expressions guidebook (PDF) 
+You should now understand how Google Analytics collects data with the Analytics tracking code, and how to set up accounts, properties, and views with filters. Next, take a quick assessment to see what you've learned.
+
+CH2 THE GOOGLE ANALYSTICS INTERFACE
+SEC 1Navigating Google Analytics
+* Audience reports -age, gender, where they’re from, interests, engaged level, new or returning visitor type, what technology their using
+* Acquisition Reports - which channels , advertising or marketing campaigns brought users to your site. can include
+    * organic
+    * cpc
+    * referral - another website,
+    * social
+    * other
+* Behavior Reports - show how ppl engage on your site with landing and exit pages. track user searches for on your site and whether they interacted with specific elements
+* Conversion Reports - allow u to track website goals based on your business objectives
+ADMIN Section - contains all google analytics settings such a permissions, tracking code, view settings, filters
+
+Understanding overview reports
+There are two kinds of reports in Google Analytics:
+    1.  “Overview” reports and
+    2. “Full” reports.
+    3. Let’s first walk through a guided tour of the Audience Overview report.
+Click through the guide
+This tour will guide you through the Analytics demo account for the Google Merchandise Store. Note that:
+        * Each step will prompt you to click on either the Analytics interface or a Next button to continue
+        * If you click elsewhere on the screen, it may break the flow
+        * To start the tour again, click the button below
+
+Audience Overview SECTION
+* Overview Reports
+* FEATURES INCLUDE:
+    * provide high-level summary of metrics.
+    * Audience overview shows aggregate audience metrics like
+        * # of users
+        * pages they visited in 1 session
+        * average session duration
+        * bounce rate
+* Date Range Selector - sets specific dates, click on month to select entire month, compare to previous months as well
+* Segment Picker
+    * it’s a filter that you use to look at specific data and compare metrics.
+    * default segment includes all users that visited tour site in given date range
+* Line graph - shows data for number of users each dy over selected date range
+* Time selector - you can change data on line graph by hour, week or month
+* metric selector - you can change metric of graph below by selecting
+* Graph annotator - You can add text notes to the graph by clicking the small arrow at bottom of graph
+* Sessions Metric - sessions are total # of sessions for given date range
+* Users - individuals that had at least 1 session on your site
+* page views - total # of times pages that included your analytics tracking code were displayed to users. Includes repeated viewing of a single page by the same user
+* pages/session - average # of pages viewed during each session. Includes repeated viewings of 1 page
+* Avg Session Duration - avg length of session based on users
+* bounce rate - % oof users who left after viewing a single page on your site and took no action
+* New vs. Returning Users -
+* DIMENSIONS AND METRICS
+    * dimensions - attribute of a data set organized to do better analysis
+    * metrics - numbers based on dimensions
+    * EX.
+    * Google store sells shirts in diff colors
+    * Examine sales numbers (metrics) across different dimensions such as different colors, sizes, mens, women
+* Demographics Metrics - default dimensions in audience overview is Language.
+* You can also select country or City
+* System Dimensions -
+* Mobile Dimensions - shows mobile devices people use to view your site
+
+2.3 Understanding full reports
+Navigating the Full Audience Report
+
+Previously, we showed you a high-level version of the “Audience Overview” report. At the bottom of that report, there’s a link to “view full report,” where you can see expanded versions of each Audience report in the left-hand navigation.
+
+When you open up the full report, you’ll see links underneath the segment picker that control the different types of data in the report.
+The “Summary” view is a summary of the dimension categorized by 1. Acquisition,
+2.  Behavior, and
+3.  Conversion metrics
+makes it easier to interpret these metrics in the context of the marketing funnel we discussed in Unit 1.
+
+ It’s important to know you can also add another dimension to the table for even more specific analysis. We call this a secondary dimension, which is a common technique when analyzing data. For example, you could add a secondary dimension of “device category” to the Location report to see what kinds of devices were used by people in different countries while visiting your website.
+
+Report Visualization
+* Next to the “advanced” link, there are several different visualization options:
+* The “data table” view is the default visualization for most reports. This organizes your data in a table broken out by acquisition, behavior, and conversion metrics for the audience and acquisition reports.
+* The “pie chart” icon creates a pie chart based on your data. This helps you compare the percentages of a whole such as how many users are on desktops, tablets, and mobile phones. You can choose which metric from your report should display in the pie chart using the pulldown menu.
+* The “performance” view shows a bar graph of your data. This helps you compare individual segments side by side like which countries bring in the highest traffic. You can also use the pull-down menu to select various metrics to be represented as bars.
+* The “comparison view” shows you a bar graph to quickly see whether each entry in the table is performing above or below the site average for the selected metric. If the value for a given row is better than average, it appears green. If it’s below average, it appears red. Again, you can use the drop-down menu to select which metric should be displayed.
+* Finally, the “Pivot” view creates a pivot table in which both rows and columns can show different dimension values for comparison. For example, a pivot table could show The Google Store the bounce rate and number of sessions for each landing page and device type.
+
+
+How to share reports
+You can share Google Analytics reports with others or download report information you find useful.
+Click through the guide
+This tour will guide you through the Analytics demo account for the Google Merchandise Store. Note that:
+* 		Each step will prompt you to click on either the Analytics interface or a Next button to continue
+* 		If you click elsewhere on the screen, it may break the flow
+* 		To start the tour again, click the button below
+
+            * Save lets you create a link to specific report in Customization area in left hand nav under saved reports
+            * Export - save a report to your desktop in CSV or PDF
+            * Share - lets you email a copy of report as an attachment and schedule regular email updates
+            * Edit reports - allows u to customize report content by adding metric groups, filters, more views. Creates new report in customization area under custom reports
+            *
+
+How to set up Customized dashboards and shortcuts
+Dashboards and shortcuts offer two ways of saving reports and metrics, so you can easily revisit them later.
+
+* STEPS
+    * Click Customization
+    * Click Dashboards
+    * Click Create
+    * Click starter dashboard and give a name to dashboard
+    * Click add widget to add widgets to dashboard
+        * Name the widget that you want to add to the dashboard
+        * Choose the type of visualization as metric, timeline, geomap, table or piechart
+    * Once you save the dashboard, click customize dashboard
+    * select layout
+
+DASHBOARD TYPES
+1. Private - visible to you only (max 20 )
+2. Shared - everyone with access (max 50 )
+
+HOW TO SHARE DASHBOARDS
+            1. Click Share
+            2. Option 1: Click Share template link -
+                1.  Can share to anyone you choose, but won’t include your analytics data
+            3. Option 2: Click Share in Solutions Gallery
+                1. Share is more public with this option where many google analytics users can share and use
+GOLD NUGGET -  GOOGLE ANALYTICS SOLUTIONS GALLERY
+
+1. What feature would be used to compare two date ranges in a report?
+Correct!
+ Hourly, Day, Week, Month views in the time graph
+ Real-time reports
+ Date range comparison
+ Account selector
+2. What does the “Users” metric measure?
+Correct!
+ The total number of visits to your website
+ Users that had at least one session on your site in the given date range
+ Users that landed on the homepage of your website
+ Users who have signed up to an email newsletter on your website
+3. What is the “Bounce Rate” in Google Analytics?
+Correct!
+ The number of times unique users returned to your website in a given time period
+ The percentage of sessions in which a user exits from your homepage
+ The percentage of total site exits
+ The percentage of visits when a user landed on your website and exited without any interactions
+4. What is a “dimension” in Google Analytics?
+Correct!
+ The total amount of revenue a business has made in a given date range.
+ An attribute of a data set that can be organized for better analysis.
+ A comparison of data between two date ranges.
+ A report that offers information about your audience.
+5. What is a “metric” in Google Analytics?
+Correct!
+ A dimension that can help you analyze site performance.
+ The dates in your date range.
+ A segment of data separated out in a report for comparison.
+ The numbers in a data set often paired with dimensions.
+6. What is a “secondary dimension” in Google Analytics?
+Correct!
+ An additional widget you can add to a dashboard for more specific analysis.
+ An additional metric you can add to a report for more specific analysis.
+ An additional dimension you can add to a report for more specific analysis.
+ A visualization that allows you to understand the impact of your data.
+7. Which Google Analytics visualization compares report data to the website average?
+Correct!
+ Pivot view
+ Comparison view
+ Performance view
+ Percentage view
+8. How can the amount of data in a sampled Google Analytics report be increased?
+Correct!
+ Apply additional filters
+ Remove the Secondary Dimension
+ Choose “Faster response” in the sampling pulldown menu
+ Choose “Greater precision” in the sampling pulldown menu
+9. When selecting “Share Template Link” in the dashboard, what will be shared?
+Correct!
+ Dashboard only
+ Data only
+ Dashboard and data
+ Neither dashboard nor data
+10. When a dashboard is shared with a user, that user can edit the dashboard configuration as they see it.
+Correct!
+ True
+ False
+
+CH3
+Audience reports -  Contain info on
+age and gender, their engagement and loyalty, and even some of their interests.
+
+* Knowing Target Audience - ensures you are reaching the right people
+* Helps guide marketing and content strategy
+
+Must enable reports for
+* Interests
+* Demographics
+
+You will see informations about:
+* age
+* gender
+* interests of users
+* engagement and loyalty, and even some of
+* their interests.
+
+HOW TO ENABLE REPORTS FOR INTERESTS AND DEMOGRAPHICS?
+* Go to Admin
+* click property settings
+* set enable Demographics and Interest Reports to ON
+
+What you will see for Interests and Demographic data ?
+Once activated, you will see data in your Demographics and Interests reports about the age, gender, and interests of your users. Note that if you’ve just enabled this feature, it may take a day or two for data to appear in these reports. Also, the Demographic reports may not contain any data if your site traffic is very low or your segment is too small.
+
+GEO Report - MOST USEFUL
+1. Determine city and continent by their IP browser
+2.
+
+Active Users report
+can show you how many users had at least one session on your site in the last day, seven days, 14 days, and 30 days.
+We call this “site reach” or “stickiness.” If your marketing activities and site content encourage users to visit and return to your site, the active users in each time frame should grow.
+
+Geographic reports
+The “Location” report under “Geo” is one of the most useful Audience reports.
+
+Google Analytics can anonymously determine a user’s continent, sub-continent, country, and city through the IP address used by their browser.
+ Notice the geographic heat map at the top of the report, which you can adjust to display different metrics.
+
+For example, switching the map to show “percent of New Visits” lets you identify potential new markets based on new user traffic to your website. This can help you decide whether to build awareness or invest in customer loyalty in particular locations.
+
+You could also use the table below the visualization to identify areas that have a high number of conversions (or transactions), but low traffic rates.
+
+That could indicate untapped markets to target with advertising.
+Another analysis technique is to identify the regions where you already have a large audience, but lower than average performance. For example, if certain regions have a higher than average bounce rate (or users that leave after viewing a single page), you might need to optimize your advertising or website. Perhaps you need to translate your ad or site into the local language or add geographically-specific content.
+
+
+Behavior reports
+ how often users visited and returned to your website. The “New vs Returning” report breaks out acquisition, behavior, and conversion goal metrics for new and returning users
+
+look at this comparison over time to see how audience loyalty may be shifting. Consider your website objectives, as well as your marketing activities, when evaluating the mix of new and returning users
+
+Technology and Mobile reports
+“Technology” and “Mobile” reports can help you understand what technologies your audience uses to consume your site content. These reports can help you fine-tune your site to make sure it’s fully functional on different devices and browsers.
+ “Browser and Operating systems” report to quickly identify issues with certain browsers on your site. If your site has a comparatively high bounce rate on a mobile browser, you may need to create a mobile-optimize
+
+“Overview” report under “Mobile” to see a breakdown of your traffic based on smartphones, tablets, and desktop devices. Check this report to see how quickly mobile usage of your site has grown over time.
+
+Acquisition reports
+Acquisition reports can provide insight about how users get to your website, and how well your digital marketing and advertising works across different channels like email, search, and display ads. These are some of the most important and actionable reports in Google Analytics.
+
+Tracking code gets information from users based on 3 things:
+            1. MEdium -
+                1. Organic - unpaid search
+                2. CPC - paid search google ads
+                3. , Referrals, - user gets t your site other than search engine
+                4.  Email, -traffic from email marketing
+                5. None - users come directly to your site
+            2. Source - provides more info about the medium
+                1. ex. if the medium is referral then the source is the URL of the website that referred user to website
+                2. ex. if organic - source is name of search engine such as google
+To see where your traffic is coming from:
+1. Go to Acquisition ==> All Traffic ==> Source/MEdium
+
+2. Good Source of Traffic Quality ==> Bounce Rate
+
+3. click metric “bouce rate” and comparison view to find site average
+
+1.  Acquisition in the All Traffic > Source/Medium report, filtering by “referral” traffic, what website sent the highest numbers of users?
+
+2. Under Acquisition in the All Traffic > Channels report, which three channels had the highest number of new users?
+
+3. Under Acquisition in the All Traffic > Referrals report, for users that came from the source “google.com” which referral path had the most sessions?
+
+
+Acquisition reports overview
+1. use the Acquisition reports to compare the performance of different marketing channels and discover which sources send you the highest quality traffic and conversions. This can help you make better decisions about where to focus your marketing efforts.
+2. Google Captures
+a. traffic medium, source, and marketing campaign name.
+medium as the mechanism that delivered users to your site.
+3. Some common examples of mediums are “organic,” “cpc,” “referral,” “email,” and “none.” Let’s look at these different types of mediums:
+* “Organic” is used to identify traffic that arrived on your site through unpaid search like a non-paid Google Search result.
+* “CPC” indicates traffic that arrived through a paid search campaign like Google Ads text ads.
+* “Referral” is used for traffic that arrived on your site after the user clicked on a website other than a search engine.
+* “Email” represents traffic that came from an email marketing campaign.
+* “(none)” is applied for users that come directly to your site by typing your URL directly into a browser. In your reports, you will see these users have a source of “direct” with a medium of “(none)
+All Traffic” let’s look at the “Source/Medium” report in The Google Store Analytics account using the dates August 1, 2015 through August 31, 2015. This shows the sources and their respective mediums sending referrals, search engine traffic, and direct traffic to the si
+
+HOW TO To identify effective traffic sources, 
+1. -, traffic should be “high quality,” meaning that users who arrive from a source engage with the website or complete a conversion. A good indicator of traffic quality can be bounce rate.
+2. -Our top traffic source is Google organic search, which has a relatively low bounce rate compared to other sources.
+3.  Our second most popular traffic source is direct traffic. YouTube referrals were the third highest traffic source, but had one of the highest bounce rates. Let’s do a bit more analysis to understand if this is a problem.
+We can click into the comparison view and select the metric “bounce rate” to compare bounce rate for each source/medium combination to the site average. Sure enough, we can see that our YouTube traffic is bouncing at a much higher rate than the site average. The Google Store may want to investigate to make sure that YouTube traffic is landing on a page that’s valuable to those users.
+
+If we want to see only the “organic” sources sending traffic to the site, we could type “organic” into the filter. You can see that Google referred more traffic than any other non-paid source and had a relatively low bounce rate compared to other sources. This means that users arriving from Google Organic search are landing on highly relevant pages.
+Now let’s compare the performance for all of our various Google marketing activities that generated traffic by changing the filter to “google.” We can now see that organic traffic was our biggest traffic source, followed by google/cpc, which represents paid search traffic using Google Ads. This is a great way to add context to your analysis and understand which marketing activities are generating success for your business.
+
+ which traffic sources bring the most engaged users to the site.
+
+Using the “Channels” report, we could view traffic by channel, which bundles the sources together under each medium. Traffic sources are automatically grouped into basic categories (or channels) like
+* Organic,
+* Social,
+* Direct,
+* Referral,
+*  Display, etc.
+Clicking into each channel will break out the individual sources for that channel. If you want to group your sources differently, you can create your own channel groupings in Google Analytics. We’ll cover this more in an advanced course.
+
+Behavior reports
+Behavior reports show how users interact with your website. This can include many different things from what content users view to how users navigate between pages. Let’s take a look at some of the most useful Behavior reports.
+
+TRY THIS:
+
+    1. Go to Behavior
+    2. Overview
+    3. Site Content
+    4. All Pages
+        1. This shows how often each webpage on your site is viewed
+        2. Click title
+
+
+“Total Pageviews” metric is simply the sum of each time a user loaded a page on your website.
+
+Behavior reports overview
+
+Let’s begin by looking at the “All Pages” report located under “Site Content” and scroll down to the data table.
+
+The “Content Drilldown” report under “Site Content” groups pages according to your website’s directory structure. You can click on a directory to see the pages of your site within that directory. This is especially useful if you’re trying to understand the performance of content in a particular section of your website. If you switch to the pie chart view, you can quickly see which sections of your site are most popular with your users.
+The “Landing Pages” report under “Site Content” lists the pages of your website where users first arrived. These are the first pages viewed in a session. You can use this report to monitor the number of bounces and the bounce rate for each landing page. A high bounce rate usually indicates that the landing page content is not relevant or engaging for those users.
+The “Exit Pages” report under “Site Content” shows the pages where users left your site. Because you don’t want users exiting from important pages like a shopping cart checkout, it’s a good idea to periodically review this report to minimize unwanted exits.
+The “Events” report tracks how users interact with specific elements of your website.
+For example,
+1. track when users click on a video player or a download link.
+2. Event tracking requires additional implementation beyond the Analytics tracking code snippet, which we’ll discuss in more detail in an advanced Google Analytics course.
+
+Analytics Academy Q&A Livestream with Krista Seiden
+
+Google Optimize - understand profiles, test and try which messages performs best for specific groups
+
+How to measure Custom Campaigns
+Ad campaigns can be an effective way to bring users to your website and grow your business. You can use Google Analytics to track marketing campaigns in Google Ads or other platforms.
+
+If marketing on other platforms, you can manually add Custom Campaign tags to marketing URLs that let Google Analytics track the impact of that campaign.
+
+
+Marketing Campaigns
+Text Ads
+Banner Ads
+Social media ads
+Email Ads
+Combo of ads to drive sales
+
+HOW MARKETING CAMPAIGN CODES WORK
+Campaign Tagging - campaign tags are extra bits of information that you add to the URL links of your online marketing or advertising materials
+
+How to make a campaign tag
+Tracking parameter + equal sign + single word
+
+When users click on a link with added parameter, google analytics tracking tracking code EXTRACTS the information from the link. Associates the user and their behavior with your marketing campaign
+
+5 Campaign Tag Types -
+
+1. Medium
+    1. medium -How you sent your message to the user.
+    2. email  ad
+    3. cpc - cost per click ad
+    4. social for social ad
+    5. source - where user came from,  specific webpage? link in email? type of median?
+2. Source -
+    1. indicates where the user came from
+    2. specific webpage
+    3. link from email
+    4. Can indicate the type of medium
+    5. ex. if the medium from email or cpc, source might be google or bing or yahoo
+    6. ex.
+3. campaign
+    1. might indicate the name of marketing campaign
+    2.
+4. Content
+    1. used to differentiate different versions of a promotion
+    2. Useful for testing multiple versions of an ad being most effective
+    3. For ex. test 1: 10$ off add test 2: no promo then compare results
+5. Term
+    1. identify the keyword for paid search campaigns
+
+
+    1. Google analytics offers a tool which helps build links to track conversions
+
+
+Join the discussion
+Get tips on how to track Custom Campaigns or ask a question by visiting the Analytics Academy Discussion Community.
+Read further
+To learn more about Custom Campaign tracking, please visit:
+* 		Best practices for creating Custom Campaigns
+* 		LunaMetrics 4 Steps to Better Campaign Data in Google Analytics
+
+LESSON 4.2
+Tracking campaigns with the URL Builder
+Google Analytics provides a tool called “The URL Builder” that helps you easily add campaign parameters to URLs to track Custom Campaigns.
+
+Read further
+To learn more about the URL Builder, please visit:
+* 		Campaign URL Builder tool
+* FOR BULK CAMPAIGN CREATIONS USE LINK - UTM Tracking Template
+
+Use Display for Banner Ads
+Email for email campaigns
+
+LIMITATIONS OF Campaign URL Builder tool
+* can only build 1 link at a time
+* Not good to use for large campaigns
+
+VERIFY TRACKING TAGS ARE WORKING
+
+HOW TO TEST CAMPAIGN LINKS (Campaign URL Builder tool)
+
+* Open incognito window
+* copy n paste bin
+* Complete GOAL - click links, sign up for email, coupon
+* Check real time reports
+
+In google analytics,
+Go to Acquisition,
+All Campaigns
+type campaign name into filter
+click secondary dimension and click Ad content in dropdown menu
+You will see source/medium added to content tag
+
+Ch.4.3
+Use Goals to measure business objectives
+Goals in Google Analytics let you associate the metrics in your reports with specific business objectives. This can be a powerful way to use data to understand whether you’re meeting your business goals.
+
+* Business Goals -
+    * actions you want users to take on your website
+    * conversion - each time user completes an action you want user to take on website
+    * sign up for newsletter
+* Google Analytics Goals
+    * conversion rate - shows % of users that converted
+    * conversion rate
+    * GOAL FUNNEL - data visualization of steps needed to complete specific goal
+        * helps your visualize where you might be losing potential customers in the conversion process
+        * 20 goals per view maximum
+        * won’t track actual click but tracks how far users went in the process to completing the goal
+        * 4 GOAL TYPES INCLUDE
+            * Destination (for funnel type viz)
+                * when user reaches specific page on your site such as a thank you or donation page
+            * Duration
+                * based on length of a user session
+            * pages.Screen per session
+                * how many pages a user views in a session
+            * Event
+                * tracks specific actions on a website
+                *
+Goal Setup
+To get started, we’ll go into the Admin section. Then, under “Views,” we’ll click “Goals.” Then we’ll click “New Goal.” Note that your Goal set-up may look a little different than the one for The Google Store, depending on your business type. Analytics provides you with some pre-set business goal templates. Since we want to track whether users made it to the checkout page for The Google Store, we’ll choose “Buy merchandise” and click “Continue.”
+Because we want to track checkout confirmations, we’ll name the goal: “Checkout Complete.” Each goal uses a particular “Goal Slot ID” that are numbered from one to twenty. The Goal Slot ID is a simple way to organize your goals. The default slot will always be the next slot available. If you’re creating your first goal, the Goal Slot ID will be “1,” but you can choose a different slot if you have certain goals that you wish to group together.
+Next we’ll choose one of four Goal types. Each of these types is triggered by a particular user action.
+* “Destination” is when a user reaches a specific page on your site such as a thank-you page;
+* “Duration,” is based on the length of a user’s session;
+* “Pages or Screens” is based on how many pages a user views in a session;
+* “Events,” is for tracking specific actions on a site. We’ll cover events more broadly in an advanced course.
+Note that if you want to create a Funnel Visualization, you can only use the “Destination”-type goal, so we’ll select “Destination” and click “Continue.”
+Next, we’ll enter the destination URL of the “Order Complete” page in the “Destination” field. The destination URL is the URL of the page that is shown when the user converts or completes the conversion process. Rather than enter the entire URL, we want to look for something distinctive in that URL that will allow us to track our goal using only this page. Since none of the other web pages in the Google Store have “SubmitOrder” in the URL, we’ll use this to identify our “Order Complete” page.
+You’ll notice that if we select “Equals to,” type “forward-slash SubmitOrder,” and click “Verify” at the bottom, we don’t see any conversion data for this goal. This is because the SubmitOrder page is part of a longer dynamic URL. In order to track this goal, we’ll actually need to use what’s called a “regular expression” and enter the value “forward slash SubmitOrder” to indicate that the URL preceding it can be variable. Now if we click “Re-verify,” we can see that the conversion rate is above 0, which means we’ll be able to track data. We’ll cover regular expressions more in an advanced Analytics course.
+Goal Value
+If you want to assign a monetary amount to the conversion goal, you can flip the “Value” toggle to “On” and type in the amount that each conversion is worth. You would only use this if each conversion was worth a consistent amount to your business. For example, if each newsletter sign-up was worth 1 dollar to your business, you could set a goal value equal to “1.” Since we’re tracking Google Store order completions and each order is a different amount, we’ll leave this Value set to “Off” for now. If we wanted to track actual revenue made from purchases, we would need to turn on ecommerce tracking, which we discuss in our Ecommerce Analytics course.
+Goal Funnel
+Once you’ve verified your settings, flip the Funnel switch to “On” to add the funnel steps. Each funnel step represents an action on your website that needs to be taken in order to accomplish the Goal. In this case, we’ll need to include a unique part of the URL for each page the user has to view in order to check out and make a purchase. We can name each step in our funnel and add the unique part of the URL. If a step is required to complete the goal, move the “Required” toggle to “Yes.” For example, if we only wanted users who entered the funnel on the first step to show up in our funnel visualization report, we could set the first step to required
+Once you click Save, you’ll see the Goal appear in the Goals list.
+To see your Goal metrics, navigate back into the Reporting view and under the “Conversions” reports, click “Goals” and then “Overview.” More importantly, you can now view goal data in almost all of your other Google Analytics reports like the Audience and Acquisition reports.
+To see the related funnel visualization, under Conversions, click the Funnel Visualization report. Scrolling down, you can see user activity in each step of the funnel and how many users proceeded through each step. If you see users dropping off dramatically in a particular step, you may want to investigate further. There could be technical issues with this stage of the funnel, preventing users from proceeding.
+
+How to measure Google Ads campaigns
+Google Ads offers a powerful way to advertise on Google web properties. You can link your Analytics account with Google Ads to measure the impact of ad campaigns on your business.
+
+To better understand using Analytics with Google Ads, please visit:
+* 		Setting up a Google Ads account
+* 		How to link and unlink your Analytics and Google Ads accounts
+* 		Skillshop - Google Ads training
+
+Course review and next steps
+Congratulations on making it through the course! Let’s review what we’ve learned and discuss strategies for getting even more actionable insights from your data.
+
+Read further
+To take your Google Analytics knowledge to the next level, please visit:
+* 		Monitor account health and performance
+* 		Google Analytics Demo Account
+* 		Diagnostics and troubleshooting
+* 		Advanced Google Analytics
+
+DATA FOR NEW USERS
+1. Behavior, Site Content, All Pages,
+2. Add 2ndary dimensions
+3. type user
+4. Shows where users are being visited by new users
+
+How to identify Innefective landing pages?
+1. Behavior
+2. site content
+3. landing pages
+4. sort by bounce rate - highest # is responsible for being ineffective
+
+How Users respond to your website based on different devices
+
+1. Acquisition
+2. Campaigns
+3. all campaigns
+4. add secondary dimension of category
+5.
+
+How to optimize geographical data and goals
+
+1. Audience
+2. Geo
+3. Location
+4. got to conversion pull down and click goal conversion rate
+5. Shows which cities, countries had highest conversion rates to target
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
